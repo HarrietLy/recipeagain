@@ -85,9 +85,9 @@ const Card = ({ currentUser, recipeID, isLoggedIn }) => {
 
   return (
     <div className="cards">
-      <div className="cardHeader" style={{ paddingTop: "50px" }}>
+      {/* <div className="cardHeader" style={{ paddingTop: "50px" }}> */}
         {/* <img className="headerBackground" src={currentRecipe?.image} alt="" /> */}
-        <div className="headerBackground">
+        <div className="headerText">
           <div class="column" id="resize">
             <div class="ui fluid image">
               <a className="ui left corner label">
@@ -97,10 +97,12 @@ const Card = ({ currentUser, recipeID, isLoggedIn }) => {
                   id="favbutton"
                 />
               </a>
-              <img src={currentRecipe?.image} alt="" />
+              <img src={currentRecipe?.image} alt=""/>
             </div>
           </div>
-        </div>
+        {/* </div>
+         */}
+         <br/>
         <div className="headerText">
           <div style={{ whiteSpace: "nowrap" }}>
             <h1 id="font2" style={{ fontSize: "45px", whiteSpace: "initial" }}>
