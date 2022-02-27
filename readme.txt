@@ -20,3 +20,6 @@ MongDB Mongoose Model
 4. Comments
 5. Replies
 
+TEST ACCOUNT:
+Email: harriet1@email.com
+Password harriet123
